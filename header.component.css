@@ -85,7 +85,9 @@ display: flex;
 ul li{
     display:inline-block;
   }
-  .navigation li:before{
+  .
+
+li:before{
     display:inline-block;
     width:15px;
     height:15px;
@@ -425,13 +427,14 @@ ul {
 ul li{
     display:inline-block;
   }
+
   .navigation li:before{
     display:inline-block;
     width:15px;
     height:15px;
     content:" ";
     border:2px solid rgb(182, 134, 134);
-    border-radius:4px;
+    border-radius:15px;
     margin-right: 5px;
   }
   li:last-child{
@@ -451,7 +454,7 @@ ul li{
   {
     width: 100%;  
     position: absolute;
-    background-color: white;  /*Code to add a white background to list*/
+    background-color: #F8F9FA;  /*Code to add a white background to list*/
     padding: 15px;  
   }
   div#middle
