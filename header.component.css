@@ -1,5 +1,5 @@
 
-ul{list-style: none;}
+/*--ul{list-style: none;}
 
 
 .top-header{
@@ -268,4 +268,407 @@ ul li{
   @media only screen and (max-width: 575px) {
   
 
-  }
+  }-------*/
+
+
+
+
+
+/*---import fa icon link---*/
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+/*--Top Header start---*/
+ul {
+	list-style: none;
+}
+
+.top-header {
+	background-color: #C02F38;
+	padding: 6px 0px;
+}
+
+.top-header .header-left-info h6 {
+	color: #fff;
+	margin-bottom: 0px;
+	font-size: 14px;
+}
+
+.top-header .header-left-info p {
+	color: #fff;
+	margin-bottom: 0px;
+	font-size: 14px;
+	opacity: 0.8;
+}
+
+.top-header .display-set {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.top-header .color-wt {
+	color: #fff;
+	opacity: 0.8;
+	margin-bottom: 0px;
+	font-size: 14px;
+	margin-right: 4px;
+}
+
+.top-header .color-wt-subtext {
+	color: #fff;
+	margin-bottom: 0px;
+	font-size: 14px;
+}
+
+.top-header .header-center-info {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.top-logo-img img {
+	height: 45px;
+	width: 100px;
+	margin-top: 0px;
+	margin-right: 0px;
+	object-fit: cover;
+}
+
+.map-icon {
+	align-items: center;
+	display: flex;
+	font-size: 20px;
+	padding: 0px 0px 0px 0px;
+}
+
+.left-boder-styles {
+	margin-left: 0px;
+	display: flex;
+	align-items: center;
+}
+
+.left-boder-styles::after {
+	content: "";
+	background: #fff;
+	position: absolute;
+	top: 22%;
+	height: 25px;
+	width: 1px;
+	left: 52%;
+}
+
+.top-dates {
+	display: flex;
+	align-items: center;
+}
+
+.logo-boder-styles::after {
+	content: "";
+	background: #fff;
+	position: absolute;
+	top: 22%;
+	height: 25px;
+	width: 1px;
+	left: 42%;
+}
+
+.top-header .top-right-info ul {
+	margin-bottom: 0;
+	display: flex;
+	align-items: center;
+}
+
+.top-header .hd-vertical-center {
+	align-items: center;
+}
+
+.contact-icon li a {
+	color: #fff;
+}
+
+.contact-icon li a i {
+	font-size: 25px;
+}
+
+.contact-icon li {
+	padding: 0px 0px;
+	margin: 0px 10px;
+}
+
+.top-right-info {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.user-info .user-message {
+	color: #fff;
+	font-size: 14px;
+	opacity: 0.8;
+	margin-bottom: 0;
+}
+
+.user-info .user-name {
+	color: #fff;
+	margin-bottom: 0px;
+	font-size: 14px;
+	margin-bottom: 0;
+}
+
+.user-login a:hover {
+	text-decoration: none;
+}
+
+
+/*--Top Header end---*/
+
+
+
+
+/*--Media query start---*/
+
+@media only screen and (max-width: 1299px) and (min-width: 1200px) {
+	.left-boder-styles::after {
+		left: 51%;
+	}
+	.logo-boder-styles::after {
+		left: 40%;
+	}
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 1025px) {
+	.top-logo-img img {
+		height: 30px;
+		width: 65px;
+	}
+	.logo-boder-styles::after {
+		top: 10%;
+		left: 35%;
+	}
+	.left-boder-styles[_ngcontent-rpm-c16]::after {
+		top: 10%;
+		left: 53%;
+	}
+}
+@media only screen and (max-width: 1099px) and (min-width: 1025px) {
+  .left-boder-styles::after {
+    left: 52%;
+}
+}
+@media only screen and (max-width: 1099px) {
+	.user-login .user-info {
+		display: none;
+	}
+
+	.logo-boder-styles::after {
+		left: 34%;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	.left-boder-styles::after {
+		left: 52%;
+	}
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 767px) {
+	.user-login .user-info {
+		display: none;
+	}
+	.top-logo-img img {
+		height: 30px;
+		width: 65px;
+	}
+	.top-dates {
+		display: block;
+	}
+	.map-icon {
+		padding: 0px 5px 0px 0px;
+	}
+	.left-boder-styles::after {
+		top: 10%;
+		height: 25px;
+		width: 1px;
+	}
+	.left-boder-styles {
+		margin-left: 15px;
+	}
+	.logo-boder-styles {
+		margin-left: 0px;
+	}
+	.contact-icon li a i {
+		font-size: 20px;
+	}
+	.top-header .header-left-info h6 {
+		font-size: 10px;
+	}
+	.top-header .header-left-info p {
+		font-size: 10px;
+	}
+	.top-header .color-wt {
+		font-size: 10px;
+	}
+	.top-header .color-wt-subtext {
+		font-size: 10px;
+	}
+	.contact-icon li {
+		margin: 0px 4px 0px 4px;
+	}
+	.logo-boder-styles::after {
+		left: 47%;
+		top: 10%;
+		height: 25px;
+		width: 1px;
+	}
+	.map-icon {
+		padding: 0px 10px 0px 10px;
+		font-size: 14px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.user-login .user-info {
+		display: none;
+	}
+	.top-logo-img img {
+		height: 30px;
+		width: 65px;
+	}
+	.top-dates {
+		display: block;
+	}
+	.map-icon {
+		padding: 0px 10px 0px 10px;
+		font-size: 14px;
+	}
+	.left-boder-styles::after {
+		top: 10%;
+		height: 25px;
+		width: 1px;
+		left: 47%;
+	}
+	.left-boder-styles {
+		margin-left: 11px;
+	}
+	.left-boder-styles::after {
+    top: 10%;
+    height: 20px;
+    width: 1px;
+    left: 56%;
+	}
+	.top-header .header-center-info {
+		display: flex;
+		justify-content: flex-start;
+	}
+	.logo-boder-styles {
+		margin-left: 20px;
+	}
+	.logo-boder-styles::after {
+    top: 22%;
+    height: 20px;
+    width: 1px;
+    left: 32%;
+	}
+	.contact-icon li a i {
+		font-size: 14px;
+	}
+	.top-header .header-left-info p {
+    font-size: 9px;
+	}
+  .top-header .header-left-info h6 {
+    font-size: 7px;
+}
+.top-header .color-wt{
+  font-size: 9px;
+}
+.top-header .color-wt-subtext {
+  font-size: 7px;
+}
+}
+
+
+
+@media only screen and (max-width: 640px) {
+
+ .left-boder-styles::after {
+
+		right: 54%;
+		top: 25%;
+		height: 20px;
+		width: 1px;
+	}
+	.top-header .header-center-info {
+		display: flex;
+    justify-content: space-evenly;
+	}
+	
+	.logo-boder-styles::after {
+		top: 25%;
+    height: 20px;
+    width: 1px;
+    left: 47%;
+	}
+	.contact-icon li a i {
+		font-size: 14px;
+	}
+	.top-header .header-left-info p {
+		font-size: 12px;
+	}
+  .top-logo-img img{
+    height: 45px;
+    width: 100px;
+}
+}
+
+
+@media only screen and (max-width: 639px) and (min-width: 578px) {
+.header-left-info{
+  display: none!important;
+}
+.logo-boder-styles {
+  display: none!important; 
+}
+.top-logo-img img {
+   left: -220px;
+  height: 30px;
+  width: 100px;
+  position: absolute;
+  top: -15px;
+  object-fit: contain;
+}
+}
+@media only screen and (max-width: 575px) {
+  .top-header .hd-vertical-center {
+		flex-direction: column-reverse;
+	}
+  .top-logo-img img {
+    left: 0px;
+    height: 35px;
+    width: 120px;
+    position: absolute;
+    top: -29px;
+    object-fit: contain;
+}
+.top-header .display-set {
+ display: none;
+}
+.logo-boder-styles {
+display: none;
+}
+}
+
+/*--Media query end---*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
