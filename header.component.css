@@ -113,7 +113,7 @@ li:before{
   {
     width: 100%;  
     position: absolute;
-    background-color: white;  /*Code to add a white background to list*/
+    background-color: white;  
     padding: 15px;  
   }
   div#middle
