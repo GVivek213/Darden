@@ -421,7 +421,93 @@ ul {
 
 /*--Top Header end---*/
 
+/*--Main Header start---*/
+ul li{
+    display:inline-block;
+  }
+  .navigation li:before{
+    display:inline-block;
+    width:15px;
+    height:15px;
+    content:" ";
+    border:2px solid rgb(182, 134, 134);
+    border-radius:4px;
+    margin-right: 5px;
+  }
+  li:last-child{
+  color:red;
+  } 
+  li:first-child:before{
+    display:none;
+  }
+  a{
+      display: inline;
+  } 
+  div#Container
+  {
+    position: relative;
+  }
+  .nav
+  {
+    width: 100%;  
+    position: absolute;
+    background-color: white;  /*Code to add a white background to list*/
+    padding: 15px;  
+  }
+  div#middle
+  {
+    position: absolute;
+  }
+  .nav a
+  {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #000000;
+  }
+  .nav ul
+  {
+    display:block;
+  }
+  .nav ul a
+  {
+    display: block;
+    float:left;
+    width: 150px;
+    padding: 10px 20px;
+    border: 1px solid #ffffff;
+    text-align: center;
+    font-size: 1.3em;
+  }
+  .nav ul a:hover
+  {
+    background: red;
+  }
+  .nav ul li
+  {
+    display: inline-block;
+    vertical-align: top;
+  }
+  .nav ul ul li {  display: block;  }
+  .nav ul li:hover > ul
+  {
+    display:block;
+  }
+  .nav ul li ul
+  {
+    margin:0;
+    padding: 0;
+    display: none;
+    background-color: #000000;
+    top: 45px;
+  }
+  .navbar-nav .active {
+    padding-left: 20px !important   ;
+  }
+  .navlist .nav-link {
+    color: rgba(0,0,0,.55);
+  }
 
+/*--Main Header end---*/
 
 
 /*--Media query start---*/
@@ -657,18 +743,3 @@ display: none;
 }
 
 /*--Media query end---*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
