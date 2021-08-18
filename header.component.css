@@ -1,10 +1,4 @@
-/*-----new css---------------------*/
-
-
 /*---import fa icon link---*/
-@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
-
-
 /*--Top Header start---*/
 ul {
 	list-style: none;
@@ -51,7 +45,8 @@ ul {
 .top-header .header-center-info {
 	display: flex;
 	justify-content: space-evenly;
-	align-items: center;position: relative;
+	align-items: center;
+	position: relative;
 }
 
 .top-logo-img img {
@@ -151,60 +146,64 @@ ul {
 
 /*--Main Header start---*/
 
-.nav-manu-header{
+.globalheader .nav-menu-header {
     background-color: #F8F9FA;
     padding: 8px 0px; 
 }
-ul li{
+.globalheader ul li{
     display:inline-block;
   }
-  .navigation{
+  .globalheader .navigation{
     margin-bottom: 0;
   }
-  .navigation li:before{
+  .globalheader .navigation li:before{
     display:inline-block;
     width:15px;
     height:15px;
     content:" ";
-    border:2px solid rgb(182, 134, 134);
+	background-image: url("/assets/Icons/Green.png");
+	background-size: 20px;
+	background-repeat: no-repeat;
+/*---border:2px solid rgb(182, 134, 134)---;*/
     border-radius:15px;
     margin-right: 5px;
+	background-size: cover;
   }
-  li:last-child{
+  .globalheader li:last-child{
   color:red;
   } 
-  li:first-child:before{
+  .globalheader li:first-child:before{
     display:none;
   }
-  a{
+  .globalheader a{
       display: inline;
   } 
-  div#Container
+  .globalheader div#Container
   {
     position: relative;
   }
-  .nav
+  .globalheader .nav
   {
     width: 100%;  
     position: absolute;
     background-color: #F8F9FA;  /*Code to add a white background to list*/
     padding: 15px;  
   }
-  div#middle
+  .globalheader div#middle
   {
     position: absolute;
   }
-  .nav a
+  .globalheader .nav a
   {
     color: #ffffff;
     text-decoration: none;
     background-color: #000000;
   }
-  .nav ul
+  .globalheader .nav ul
   {
     display:block;
   }
-  .nav ul a
+  .globalheader .nav ul a
   {
     display: block;
     float:left;
@@ -214,21 +213,21 @@ ul li{
     text-align: center;
     font-size: 1.3em;
   }
-  .nav ul a:hover
+  .globalheader .nav ul a:hover
   {
     background: red;
   }
-  .nav ul li
+  .globalheader .nav ul li
   {
     display: inline-block;
     vertical-align: top;
   }
-  .nav ul ul li {  display: block;  }
-  .nav ul li:hover > ul
+  .globalheader .nav ul ul li {  display: block;  }
+  .globalheader .nav ul li:hover > ul
   {
     display:block;
   }
-  .nav ul li ul
+  .globalheader.nav ul li ul
   {
     margin:0;
     padding: 0;
@@ -236,10 +235,10 @@ ul li{
     background-color: #000000;
     top: 45px;
   }
-  .navbar-nav .active {
+  .globalheader .navbar-nav .active {
     padding-left: 20px !important   ;
   }
-  .navlist .nav-link {
+  .globalheader .navlist .nav-link {
     color: rgba(0,0,0,.55);
   }
 
