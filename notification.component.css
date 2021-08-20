@@ -1,11 +1,33 @@
-.container-fluid{
-  width: 500px;
-  border: 1px solid red;
+.notification-main{
+     background-color: #cccc;
+    margin: 20 0px 20px 0px;
+    padding: 20px 0px 20px 0px;
+}
+.notification-code{
+  background-color: #ffff;
+    padding: 30px;
+    height: 100%;
+}
+.notification-titel {
+    background-color: #fff;
+    height: 100%;
+}
+.notificasion-titel{
+      padding: 10px;
+}
+.notificasion-titel .nav-item{
+  border: 1px solid #dee2e6;
+    box-shadow: 0px 1px #ccc;
+    margin-bottom: 10px;
+}
+.notification-titel ul li a p{
+  font-size: 14px;
+    color: #000;
+    margin-bottom: 5px;
 }
 
-.grid {
-  display: grid;
-  grid-gap: 5px;
-  grid-auto-flow: column;
-  width: 100px;
+.notification-main .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #caa534ab;
+
 }
