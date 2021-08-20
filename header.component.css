@@ -1,4 +1,4 @@
-
+/* Font Family Starts*/
   @font-face {
 	font-family:'AvenirNext-Bold';
 	src: url('/assets/font/AvenirNext-Bold/AvenirNext-Bold.eot'); /* IE9 Compat Modes */
@@ -8,7 +8,6 @@
 		 
 		 
   } 
-
   
   @font-face {
 	font-family:'Avenir-Black';
@@ -16,11 +15,10 @@
 	src: url('/assets/font/Avenir-Black/Avenir-Black.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
 		 url('/assets/font/Avenir-Black/Avenir-Black.woff2') format('woff2'), /* Super Modern Browsers */
 		 url('/assets/font/Avenir-Black/Avenir-Black.woff') format('woff'), /* Pretty Modern Browsers */
-		 
-		 
+		 		 
   } 
   
-  
+/* Font Family Ends*/  
 
 ul {
 	list-style: none;
@@ -324,10 +322,7 @@ padding: 0px 45px 0px 0px;
         left: 50%;
        }
  
-}
-
-
- 
+} 
 @media only screen and (min-width: 1500px) {
 .header-left-info{
     justify-content: unset!important;
@@ -457,9 +452,6 @@ padding: 0px 45px 0px 0px;
 .globalheader .nav-link{
 	padding: 0px 20px 0px 2px;
     font-size: 13px
-	
-
-
 }
 .globalheader .nav-menu-header .navigation .nav-link {
     padding: 0px 22px 0px 0px;
@@ -601,20 +593,6 @@ padding: 0px 45px 0px 0px;
     width: 100px;
 }
 }
-
-@media only screen and (max-width: 600px) {
-
-
-
-
-
-
-
-
-
-
-}
-
 @media only screen and (max-width: 639px) and (min-width: 578px) {
 	
 	.left-boder-styles::after {
