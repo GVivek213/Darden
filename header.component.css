@@ -22,18 +22,18 @@
 
 ul {
 	list-style: none;
-	font-family: "AvenirNext-Bold";
+	font-family: "Avenir-Black";
 }
 
 .top-header {
-	font-family: "AvenirNext-Bold";
+	font-family: "Avenir-Black";
 	background-color: #C02F38;
 	padding: 6px 0px;
 }
 
 .top-header .header-left-info h6 {
 	color: #fff;
-	font-family: AvenirNext-Bold;
+	font-family: Avenir-Black;
 	margin-bottom: 0px;
 	font-size: 14px;
 }
